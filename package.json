@@ -1,14 +1,14 @@
 {
-    "name": "destiny2-lfg-bot",
+    "name": "fireteam-finder",
     "version": "1.0.0",
-    "description": "Discord bot for managing Destiny 2 Looking For Group activities",
+    "description": "Discord bot for organizing Destiny 2 Looking For Group activities",
     "main": "src/index.js",
     "scripts": {
       "start": "node src/index.js",
       "dev": "nodemon src/index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Ronald Karel Grant",
     "license": "MIT",
     "dependencies": {
       "discord.js": "^14.13.0",

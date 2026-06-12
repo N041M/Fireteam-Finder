@@ -77,8 +77,8 @@ A few design notes:
 ### Setup
 
 ```bash
-git clone https://github.com/N041M/fireteam-finder.git
-cd fireteam-finder
+git clone https://github.com/N041M/Fireteam-Finder.git
+cd Fireteam-Finder
 npm install
 ```
 

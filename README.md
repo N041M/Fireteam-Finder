@@ -1,8 +1,10 @@
 # Fireteam Finder
 
-A Discord bot for organizing **Destiny 2** Looking-For-Group (LFG) activities. Players create a listing for a raid, dungeon, or any activity through a guided menu, and the bot spins up a dedicated text + voice channel, a private role, and a live roster that updates as people join, leave, or queue as substitutes — then tears it all down automatically when the activity is over.
+**A Discord bot for organizing Destiny 2 Looking-For-Group activities — guided listing creation, dedicated channels and roles, live rosters, substitute queues, and automatic teardown.**
 
-Built with [discord.js](https://discord.js.org/) v14 on Node.js.
+Players create a listing for a raid, dungeon, or any activity through a guided menu, and the bot spins up a dedicated text + voice channel, a private role, and a live roster that updates as people join, leave, or queue as substitutes — then tears it all down automatically when the activity is over.
+
+> Node.js 16+ · [discord.js](https://discord.js.org/) v14 · plain JavaScript, no database · MIT licensed
 
 ---
 
@@ -67,7 +69,7 @@ A few design notes:
 
 > **Developer note — generalizing beyond Destiny 2:** the bot is currently wired specifically to Destiny 2 (fixed activity lists, difficulties, and fireteam sizes in `config/activities.js`, plus Destiny-flavored wording throughout). The underlying engine — guided listing creation, channel/role provisioning, live rosters, substitute queues, and scheduled cleanup — is game-agnostic. A future direction is to lift the Destiny-specific data into a swappable configuration (or per-guild templates) so the same bot can run LFG for any game or group activity, rather than being hard-wired to one title.
 
-## Getting started
+## Quick start
 
 ### Prerequisites
 
@@ -111,4 +113,4 @@ npm run dev    # auto-restart on change (nodemon)
 
 ## License
 
-MIT
+[MIT](LICENSE) — © 2026 Ronald Karel Grant

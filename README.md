@@ -65,6 +65,8 @@ A few design notes:
 
 > **Note on persistence:** active listings are held in memory, so a restart clears them. This keeps the project dependency-free; adding a database (or a JSON snapshot) is the natural next step for production use.
 
+> **Developer note — generalizing beyond Destiny 2:** the bot is currently wired specifically to Destiny 2 (fixed activity lists, difficulties, and fireteam sizes in `config/activities.js`, plus Destiny-flavored wording throughout). The underlying engine — guided listing creation, channel/role provisioning, live rosters, substitute queues, and scheduled cleanup — is game-agnostic. A future direction is to lift the Destiny-specific data into a swappable configuration (or per-guild templates) so the same bot can run LFG for any game or group activity, rather than being hard-wired to one title.
+
 ## Getting started
 
 ### Prerequisites
